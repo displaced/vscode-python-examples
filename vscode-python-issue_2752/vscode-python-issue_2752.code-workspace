@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "service_a"
+		},
+		{
+			"path": "service_b"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [],
+		"compounds": [
+			{
+				"name": "Both Services",
+				"configurations": [
+					"service_a",
+					"service_b"
+				]
+			}
+			
+		]
+	}
+
+}
